@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: mockesimerkki.TilaustenKäsittelyMockitoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+mockesimerkki.TilaustenKäsittelyMockitoTest.testaaKäsittelijäWithMockitoHinnoittelija()  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "mockesimerkki.IHinnoittelija.getAlennusProsentti(mockesimerkki.Asiakas, mockesimerkki.Tuote)" because "this.hinnoittelijaMock" is null
+	at mockesimerkki.TilaustenKäsittelyMockitoTest.testaaKäsittelijäWithMockitoHinnoittelija(TilaustenKäsittelyMockitoTest.java:29)
+
